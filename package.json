@@ -2,7 +2,7 @@
     "name": "flipit",
     "displayName": "flipit",
     "description": "Flip active editor contents (or current selection) upside-down",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "ndrake",
     "repository": {
         "type": "git",
@@ -16,7 +16,8 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.flipIt"
+        "onCommand:extension.flipIt",
+        "onCommand:extension.zalgoIt"
     ],
     "main": "./extension",
     "contributes": {
@@ -24,6 +25,10 @@
             {
                 "command": "extension.flipIt",
                 "title": "Flip It"
+            },
+            {
+                "command": "extension.zalgoIt",
+                "title": "Zalgo It"
             }
         ]
     },
@@ -39,6 +44,7 @@
         "@types/mocha": "^2.2.42"
     },
     "dependencies": {
-        "flip": "^1.0.0"
+        "flip": "1.0.0",
+        "zalgolize": "1.2.4"
     }
 }
