@@ -12,6 +12,11 @@ This extension will [flip](https://github.com/jergason/flipjs) or [zalgoize](htt
 
 ## Release Notes
 
+### 1.0.2
+
+* Cleanup disposable
+* Update dependencies
+
 ### 1.0.1
 
 Add Zalgo support
