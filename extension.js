@@ -47,6 +47,8 @@ function activate(context) {
             vscode.window.showTextDocument(doc);
         });
     });
+    context.subscriptions.push(disposable);
+
 }
 exports.activate = activate;
 
