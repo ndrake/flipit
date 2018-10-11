@@ -2,7 +2,7 @@
     "name": "flipit",
     "displayName": "flipit",
     "description": "Flip or Zalgolize active editor contents (or current selection) upside-down",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "ndrake",
     "repository": {
         "type": "git",
