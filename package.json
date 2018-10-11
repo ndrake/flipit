@@ -17,7 +17,11 @@
     ],
     "activationEvents": [
         "onCommand:extension.flipIt",
-        "onCommand:extension.zalgoIt"
+        "onCommand:extension.zalgoIt",
+        "onCommand:extension.bubbleIt",
+        "onCommand:extension.mirrorIt",
+        "onCommand:extension.wonkIt",
+        "onCommand:extension.tinyCapsIt"
     ],
     "main": "./extension",
     "contributes": {
@@ -29,6 +33,22 @@
             {
                 "command": "extension.zalgoIt",
                 "title": "Zalgo It"
+            },
+            {
+                "command": "extension.bubbleIt",
+                "title": "Bubble It"
+            },
+            {
+                "command": "extension.mirrorIt",
+                "title": "Mirror It"
+            },
+            {
+                "command": "extension.wonkIt",
+                "title": "Wonk It"
+            },
+            {
+                "command": "extension.tinyCapsIt",
+                "title": "Tiny Caps It"
             }
         ]
     },
@@ -45,6 +65,10 @@
     },
     "dependencies": {
         "flip": "1.0.0",
+        "lunicode-bent": "1.0.1",
+        "lunicode-bubbles": "1.0.1",
+        "lunicode-mirror": "1.0.1",
+        "lunicode-tiny": "1.0.1",
         "zalgolize": "1.2.4"
     }
 }
