@@ -26,6 +26,10 @@ Built with the help of:
 
 ## Release Notes
 
+### 1.0.4
+
+* Update vscode dependency
+
 ### 1.0.3
 
 * Added bubble text, mirror text, tiny caps and wonky text transforms

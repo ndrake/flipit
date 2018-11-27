@@ -2,7 +2,7 @@
     "name": "flipit",
     "displayName": "flipit",
     "description": "Flip or Zalgolize active editor contents (or current selection) upside-down",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "ndrake",
     "repository": {
         "type": "git",
@@ -58,7 +58,7 @@
     },
     "devDependencies": {
         "typescript": "3.1.1",
-        "vscode": "1.1.21",
+        "vscode": "1.1.22",
         "eslint": "5.6.0",
         "@types/node": "10.11.2",
         "@types/mocha": "5.2.5"
