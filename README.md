@@ -26,6 +26,14 @@ Built with the help of:
 
 ## Release Notes
 
+### 1.0.7
+
+* Update dependencies
+
+### 1.0.6
+
+* Update dependencies
+
 ### 1.0.5
 
 * Update dependencies
